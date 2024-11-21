@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root{
+    --success-color: green;
+    --error-color: red;
+}
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #f4f4ff !important;
+}
+    
+.container{
+    background-color: white !important;
+    font-family: 'Open Sans', sans-serif !important;
+    border: 5px !important;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    width: 50% !important;
+    border-radius: 15px !important;
+   
+    margin-top: 100px !important;
+}
+small{
+    display: block !important;
+    color:red !important;
+    text-align:center !important;
+}
+
+.success input{
+    border: 3px solid var(--success-color) !important;
+
+}
+.error input{
+    border-color: var(--error-color) !important;
+}
+.input-group #togglepassword{
+    cursor:pointer;
+}
